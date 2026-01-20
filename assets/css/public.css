@@ -1,0 +1,38 @@
+/* Floating Side Menu v2 - Public CSS */
+/* Base styles - most styling is done via inline CSS for full control */
+
+/* Ensure Font Awesome icons display correctly */
+#fsm-menu .fas,
+#fsm-menu .far,
+#fsm-menu .fab,
+#fsm-menu .fa {
+    font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands" !important;
+    font-style: normal !important;
+    font-variant: normal !important;
+    text-rendering: auto !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+}
+
+#fsm-menu .fas {
+    font-weight: 900 !important;
+}
+
+#fsm-menu .far {
+    font-weight: 400 !important;
+}
+
+#fsm-menu .fab {
+    font-family: "Font Awesome 6 Brands" !important;
+    font-weight: 400 !important;
+}
+
+/* Ensure Dashicons display correctly */
+#fsm-menu .dashicons {
+    font-family: dashicons !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    text-rendering: auto !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+}
