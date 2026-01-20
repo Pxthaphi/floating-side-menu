@@ -1,0 +1,14 @@
+# Exclude files from GitHub release archives (ZIP/tar.gz)
+.github export-ignore
+.git export-ignore
+.gitattributes export-ignore
+.gitignore export-ignore
+.editorconfig export-ignore
+tests export-ignore
+phpunit.xml export-ignore
+composer.json export-ignore
+composer.lock export-ignore
+package.json export-ignore
+package-lock.json export-ignore
+node_modules export-ignore
+*.md export-ignore
